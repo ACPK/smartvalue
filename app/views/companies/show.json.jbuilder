@@ -1,1 +1,1 @@
-json.extract! @company, :id, :name, :logo, :description, :num_shares, :free_cash_flow, :created_at, :updated_at
+json.extract! @company, :id, :name, :symbol, :market, :cash_per_share, :cash_flow_per_share, :created_at, :updated_at

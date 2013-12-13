@@ -2,14 +2,14 @@
 
 one:
   name: MyString
-  logo: MyString
-  description: MyString
-  num_shares: 1
-  free_cash_flow: 1
+  symbol: MyString
+  market: MyString
+  cash_per_share: 1
+  cash_flow_per_share: 1
 
 two:
   name: MyString
-  logo: MyString
-  description: MyString
-  num_shares: 1
-  free_cash_flow: 1
+  symbol: MyString
+  market: MyString
+  cash_per_share: 1
+  cash_flow_per_share: 1

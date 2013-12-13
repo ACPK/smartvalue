@@ -2,10 +2,10 @@ class CreateCompanies < ActiveRecord::Migration
   def change
     create_table :companies do |t|
       t.string :name
-      t.string :logo
-      t.string :description
-      t.integer :num_shares
-      t.integer :free_cash_flow
+      t.string :symbol
+      t.string :market
+      t.integer :cash_per_share
+      t.integer :cash_flow_per_share
 
       t.timestamps
     end

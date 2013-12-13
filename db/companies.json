@@ -1,0 +1,86 @@
+[
+    {
+        "Company": {
+            "CompanyName": "Microsoft Corporation",
+            "Symbol": "MSFT",
+            "Market": "NASDAQ"
+        },
+        "ReportHeader": {
+            "AsOfDate": "12/12/2013"
+        },
+        "OtherRatios": {
+            "CashPerShare": 0.48,
+            "CashFlowPerShare": 3.19
+        }
+    },
+    {
+        "Company": {
+            "CompanyName": "Google, Inc.",
+            "Symbol": "GOOG",
+            "Market": "NASDAQ"
+        },
+        "ReportHeader": {
+            "AsOfDate": "12/12/2013"
+        },
+        "OtherRatios": {
+            "CashPerShare": 45.61,
+            "CashFlowPerShare": 48.74
+        }
+    },
+    {
+        "Company": {
+            "CompanyName": "Apple Inc",
+            "Symbol": "AAPL",
+            "Market": "NASDAQ"
+        },
+        "ReportHeader": {
+            "AsOfDate": "12/12/2013"
+        },
+        "OtherRatios": {
+            "CashPerShare": 15.85,
+            "CashFlowPerShare": 48.67
+        }
+    },
+    {
+        "Company": {
+            "CompanyName": "Hewlett-Packard Co",
+            "Symbol": "HPQ",
+            "Market": "NYSE"
+        },
+        "ReportHeader": {
+            "AsOfDate": "12/12/2013"
+        },
+        "OtherRatios": {
+            "CashPerShare": 6.87,
+            "CashFlowPerShare": 0.8
+        }
+    },
+    {
+        "Company": {
+            "CompanyName": "Adobe Systems Inc",
+            "Symbol": "ADBE",
+            "Market": "NASDAQ"
+        },
+        "ReportHeader": {
+            "AsOfDate": "12/12/2013"
+        },
+        "OtherRatios": {
+            "CashPerShare": 1.63,
+            "CashFlowPerShare": 1.53
+        }
+    },
+    {
+        "Company": {
+            "CompanyName": "Intel Corp",
+            "Symbol": "INTC",
+            "Market": "NASDAQ"
+        },
+        "ReportHeader": {
+            "AsOfDate": "12/12/2013"
+        },
+        "OtherRatios": {
+            "CashPerShare": 0.98,
+            "CashFlowPerShare": 3.53
+        }
+    }
+]
