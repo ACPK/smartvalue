@@ -1,29 +1,86 @@
 <p id="notice"><%= notice %></p>
 
-<p>
-  <strong>Name:</strong>
-  <%= @company.name %>
-</p>
+<div class="page-header">
+  <h1><%= @company.name %><br><small><%= @company.market %> : <%= @company.symbol %></small></h1>
+</div>
 
-<p>
-  <strong>Symbol:</strong>
-  <%= @company.symbol %>
-</p>
+<div class="row">
 
-<p>
-  <strong>Market:</strong>
-  <%= @company.market %>
-</p>
+  <div class="col-md-4">
 
-<p>
-  <strong>Cash per share:</strong>
-  <%= @company.cash_per_share %>
-</p>
+    <div class="panel panel-default">
+      <div class="panel-heading">
+        <h3 class="panel-title">Stock Price</h3>
+      </div>
+      <div class="panel-body">
+        <%= number_to_currency(@company.stock_price.to_f / 100) %>
+      </div>
+    </div>
 
-<p>
-  <strong>Cash flow per share:</strong>
-  <%= @company.cash_flow_per_share %>
-</p>
+  </div>
 
-<%= link_to 'Edit', edit_company_path(@company) %> |
-<%= link_to 'Back', companies_path %>
+  <div class="col-md-4">
+
+    <div class="panel panel-default">
+      <div class="panel-heading">
+        <h3 class="panel-title">Intrinsic value (DCF)</h3>
+      </div>
+      <div class="panel-body">
+        <%= number_to_currency(@company.dcf_intrinsic_value.to_f / 100) %>
+      </div>
+    </div>
+
+  </div>
+
+  <div class="col-md-4">
+
+    <% if @company.discount > 10 %>
+
+      <div class="panel panel-danger valued overvalued">
+        <div class="panel-heading">
+          <h3 class="panel-title"><i class="fa fa-exclamation-triangle"></i> overvalued</h3>
+        </div>
+        <div class="panel-body">
+          <%= number_to_percentage(@company.discount, precision: 0) %>
+        </div>
+      </div>
+
+    <% elsif @company.discount < -10 %>
+
+      <div class="panel panel-success valued undervalued">
+        <div class="panel-heading">
+          <h3 class="panel-title"><i class="fa fa-thumbs-o-up"></i><br>undervalued</h3>
+        </div>
+        <div class="panel-body">
+          <%= number_to_percentage(@company.discount.abs, precision: 0) %>
+        </div>
+      </div>
+
+    <% else %>
+
+      <div class="panel panel-info valued fairly_valued">
+        <div class="panel-heading">
+          <h3 class="panel-title"><i class="fa fa-hand-o-right"></i></i> fairly valued</h3>
+        </div>
+        <div class="panel-body">
+          <%= number_to_percentage(@company.discount, precision: 0) %>
+        </div>
+      </div>
+    <% end %>
+
+  </div>
+
+</div>
+
+<hr>
+
+<div class="row">
+  <div class="col-md-12">
+    <p><strong>cash per share:</strong> <%= number_to_currency(@company.cash_per_share.to_f / 100) %></p>
+    <p><strong>cash flow per share:</strong> <%= number_to_currency(@company.cash_flow_per_share.to_f / 100) %></p>
+  </div>
+</div>
+
+<hr>
+
+<%= link_to 'Edit', edit_company_path(@company), class: "btn btn-warning" %>

@@ -1,35 +1,44 @@
-<h1>Listing companies</h1>
+<h1>Companies</h1>
 
 <table class="table">
   <thead>
     <tr>
-      <th>Name</th>
+      <th></th>
       <th>Symbol</th>
       <th>Market</th>
+      <th>Stock Price</th>
       <th>Cash per share</th>
       <th>Cash flow per share</th>
-      <th></th>
-      <th></th>
-      <th></th>
+      <th>Intrinsic value (DCF)</th>
     </tr>
   </thead>
 
   <tbody>
     <% @companies.each do |company| %>
       <tr>
-        <td><%= company.name %></td>
+        <td><span class="company_name"><%= link_to company.name, company %></span></td>
         <td><%= company.symbol %></td>
         <td><%= company.market %></td>
-        <td><%= company.cash_per_share %></td>
-        <td><%= company.cash_flow_per_share %></td>
-        <td><%= link_to 'Show', company %></td>
-        <td><%= link_to 'Edit', edit_company_path(company) %></td>
-        <td><%= link_to 'Destroy', company, method: :delete, data: { confirm: 'Are you sure?' } %></td>
+        <td><%= number_to_currency(company.stock_price.to_f / 100) %></td>
+        <td><%= number_to_currency(company.cash_per_share.to_f / 100) %></td>
+        <td><%= number_to_currency(company.cash_flow_per_share.to_f / 100) %></td>
+        <td><%= number_to_currency(company.dcf_intrinsic_value.to_f / 100) %></td>
+        <td>
+          <% if company.discount > 10 %>
+            <span class="label label-danger">sell</span>
+          <% elsif company.discount < -10 %>
+            <span class="label label-success">buy</span>
+          <% else %>
+            <span class="label label-info">meh</span>
+          <% end %>
+        </td>
       </tr>
     <% end %>
   </tbody>
 </table>
 
-<br>
 
-<%= link_to 'New Company', new_company_path %>
+
+
+
+
