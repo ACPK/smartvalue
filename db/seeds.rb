@@ -10,8 +10,8 @@ company_hashes.each do |company_hash|
   c.name = company_hash["Company"]["CompanyName"]
   c.symbol = company_hash["Company"]["Symbol"]
   c.market = company_hash["Company"]["Market"]
-  c.cash_per_share = company_hash["OtherRatios"]["CashPerShare"]
-  c.cash_flow_per_share = company_hash["OtherRatios"]["CashFlowPerShare"]
+  c.cash_per_share = company_hash["OtherRatios"]["CashPerShare"]*100
+  c.cash_flow_per_share = company_hash["OtherRatios"]["CashFlowPerShare"]*100
   c.save
 end
 
