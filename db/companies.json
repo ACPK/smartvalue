@@ -82,5 +82,131 @@
             "CashPerShare": 0.98,
             "CashFlowPerShare": 3.53
         }
+    },
+    {
+        "Company": {
+            "CompanyName": "Cisco Systems Inc",
+            "Symbol": "CSCO",
+            "Market": "NASDAQ"
+        },
+        "ReportHeader": {
+            "AsOfDate": "12/12/2013"
+        },
+        "OtherRatios": {
+            "CashPerShare": 0.98,
+            "CashFlowPerShare": 2.28
+        }
+    },
+    {
+        "Company": {
+            "CompanyName": "Dell Inc",
+            "Symbol": "DELL",
+            "Market": "NASDAQ"
+        },
+        "ReportHeader": {
+            "AsOfDate": "12/12/2013"
+        },
+        "OtherRatios": {
+            "CashPerShare": 6.36,
+            "CashFlowPerShare": 1.48
+        }
+    },
+    {
+        "Company": {
+            "CompanyName": "Coca-Cola Co",
+            "Symbol": "KO",
+            "Market": "NYSE"
+        },
+        "ReportHeader": {
+            "AsOfDate": "12/12/2013"
+        },
+        "OtherRatios": {
+            "CashPerShare": 2.52,
+            "CashFlowPerShare": 2.44
+        }
+    },
+    {
+        "Company": {
+            "CompanyName": "Best Buy Co Inc",
+            "Symbol": "BBY",
+            "Market": "NYSE"
+        },
+        "ReportHeader": {
+            "AsOfDate": "12/12/2013"
+        },
+        "OtherRatios": {
+            "CashPerShare": 6.28,
+            "CashFlowPerShare": 1.04
+        }
+    },
+    {
+        "Company": {
+            "CompanyName": "McDonald's Corporation",
+            "Symbol": "MCD",
+            "Market": "NYSE"
+        },
+        "ReportHeader": {
+            "AsOfDate": "12/12/2013"
+        },
+        "OtherRatios": {
+            "CashPerShare": 2.56,
+            "CashFlowPerShare": 7.18
+        }
+    },
+    {
+        "Company": {
+            "CompanyName": "Wal-Mart Stores Inc",
+            "Symbol": "WMT",
+            "Market": "NYSE"
+        },
+        "ReportHeader": {
+            "AsOfDate": "12/12/2013"
+        },
+        "OtherRatios": {
+            "CashPerShare": 2.69,
+            "CashFlowPerShare": 8.24
+        }
+    },
+    {
+        "Company": {
+            "CompanyName": "Johnson & Johnson",
+            "Symbol": "JNJ",
+            "Market": "NYSE"
+        },
+        "ReportHeader": {
+            "AsOfDate": "12/12/2013"
+        },
+        "OtherRatios": {
+            "CashPerShare": 6.1,
+            "CashFlowPerShare": 6
+        }
+    },
+    {
+        "Company": {
+            "CompanyName": "Procter & Gamble Co",
+            "Symbol": "PG",
+            "Market": "NYSE"
+        },
+        "ReportHeader": {
+            "AsOfDate": "12/12/2013"
+        },
+        "OtherRatios": {
+            "CashPerShare": 2.25,
+            "CashFlowPerShare": 5.39
+        }
+    },
+    {
+        "Company": {
+            "CompanyName": "PepsiCo Inc",
+            "Symbol": "PEP",
+            "Market": "NYSE"
+        },
+        "ReportHeader": {
+            "AsOfDate": "12/12/2013"
+        },
+        "OtherRatios": {
+            "CashPerShare": 6,
+            "CashFlowPerShare": 6.11
+        }
     }
 ]
