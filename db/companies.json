@@ -3,7 +3,8 @@
         "Company": {
             "CompanyName": "Microsoft Corporation",
             "Symbol": "MSFT",
-            "Market": "NASDAQ"
+            "Market": "NASDAQ",
+            "StockPrice": 37.22
         },
         "ReportHeader": {
             "AsOfDate": "12/12/2013"
@@ -17,7 +18,8 @@
         "Company": {
             "CompanyName": "Google, Inc.",
             "Symbol": "GOOG",
-            "Market": "NASDAQ"
+            "Market": "NASDAQ",
+            "StockPrice": 1069.96
         },
         "ReportHeader": {
             "AsOfDate": "12/12/2013"
@@ -31,7 +33,8 @@
         "Company": {
             "CompanyName": "Apple Inc",
             "Symbol": "AAPL",
-            "Market": "NASDAQ"
+            "Market": "NASDAQ",
+            "StockPrice": 560.54
         },
         "ReportHeader": {
             "AsOfDate": "12/12/2013"
@@ -45,7 +48,8 @@
         "Company": {
             "CompanyName": "Hewlett-Packard Co",
             "Symbol": "HPQ",
-            "Market": "NYSE"
+            "Market": "NYSE",
+            "StockPrice": 26.6
         },
         "ReportHeader": {
             "AsOfDate": "12/12/2013"
@@ -59,7 +63,8 @@
         "Company": {
             "CompanyName": "Adobe Systems Inc",
             "Symbol": "ADBE",
-            "Market": "NASDAQ"
+            "Market": "NASDAQ",
+            "StockPrice": 53.99
         },
         "ReportHeader": {
             "AsOfDate": "12/12/2013"
@@ -73,7 +78,8 @@
         "Company": {
             "CompanyName": "Intel Corp",
             "Symbol": "INTC",
-            "Market": "NASDAQ"
+            "Market": "NASDAQ",
+            "StockPrice": 24.47
         },
         "ReportHeader": {
             "AsOfDate": "12/12/2013"
@@ -87,7 +93,8 @@
         "Company": {
             "CompanyName": "Cisco Systems Inc",
             "Symbol": "CSCO",
-            "Market": "NASDAQ"
+            "Market": "NASDAQ",
+            "StockPrice": 20.51
         },
         "ReportHeader": {
             "AsOfDate": "12/12/2013"
@@ -101,7 +108,8 @@
         "Company": {
             "CompanyName": "Dell Inc",
             "Symbol": "DELL",
-            "Market": "NASDAQ"
+            "Market": "NASDAQ",
+            "StockPrice": 13.86
         },
         "ReportHeader": {
             "AsOfDate": "12/12/2013"
@@ -115,7 +123,8 @@
         "Company": {
             "CompanyName": "Coca-Cola Co",
             "Symbol": "KO",
-            "Market": "NYSE"
+            "Market": "NYSE",
+            "StockPrice": 39.21
         },
         "ReportHeader": {
             "AsOfDate": "12/12/2013"
@@ -129,7 +138,8 @@
         "Company": {
             "CompanyName": "Best Buy Co Inc",
             "Symbol": "BBY",
-            "Market": "NYSE"
+            "Market": "NYSE",
+            "StockPrice": 40.23
         },
         "ReportHeader": {
             "AsOfDate": "12/12/2013"
@@ -143,7 +153,8 @@
         "Company": {
             "CompanyName": "McDonald's Corporation",
             "Symbol": "MCD",
-            "Market": "NYSE"
+            "Market": "NYSE",
+            "StockPrice": 94.1
         },
         "ReportHeader": {
             "AsOfDate": "12/12/2013"
@@ -157,7 +168,8 @@
         "Company": {
             "CompanyName": "Wal-Mart Stores Inc",
             "Symbol": "WMT",
-            "Market": "NYSE"
+            "Market": "NYSE",
+            "StockPrice": 78.5
         },
         "ReportHeader": {
             "AsOfDate": "12/12/2013"
@@ -171,7 +183,8 @@
         "Company": {
             "CompanyName": "Johnson & Johnson",
             "Symbol": "JNJ",
-            "Market": "NYSE"
+            "Market": "NYSE",
+            "StockPrice": 91.16
         },
         "ReportHeader": {
             "AsOfDate": "12/12/2013"
@@ -185,7 +198,8 @@
         "Company": {
             "CompanyName": "Procter & Gamble Co",
             "Symbol": "PG",
-            "Market": "NYSE"
+            "Market": "NYSE",
+            "StockPrice": 82.3
         },
         "ReportHeader": {
             "AsOfDate": "12/12/2013"
@@ -199,7 +213,8 @@
         "Company": {
             "CompanyName": "PepsiCo Inc",
             "Symbol": "PEP",
-            "Market": "NYSE"
+            "Market": "NYSE",
+            "StockPrice": 81.28
         },
         "ReportHeader": {
             "AsOfDate": "12/12/2013"
